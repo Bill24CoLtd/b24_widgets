@@ -17,7 +17,7 @@ To use the **b24_widgets** package in your Flutter project, follow these steps:
 Add the following dependency to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  b24_widgets: ^0.0.15
+  b24_widgets: ^0.0.18
 ```
 ### Usage
 import 'package:b24_widgets/widgets/inputs/ex_text_input.dart';
