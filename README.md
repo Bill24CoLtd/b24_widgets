@@ -15,7 +15,7 @@ To use the **b24_widgets** package in your Flutter project, follow these steps:
 Add the following dependency to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  b24_widgets: ^0.0.19
+  b24_widgets: ^0.0.20
 ```
 ### Usage
 
@@ -33,6 +33,7 @@ dependencies:
     ExTextInput(
     type: ExInputType.passwords,
     confirmPassword: true,
+    isShowValidate: false,
     label: 'Confirm Password',
     controller: controlConfirm,
     controllerConfirm: controlPass,
